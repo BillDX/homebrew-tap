@@ -4,7 +4,7 @@ cask "inside-voice" do
 
   url "https://github.com/BillDX/InsideVoice/releases/download/v#{version}/InsideVoice.dmg"
   name "Inside Voice"
-  desc "Push-to-talk dictation that never leaves your Mac"
+  desc "Push-to-talk dictation that runs entirely on-device"
   homepage "https://github.com/BillDX/InsideVoice"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "inside-voice" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Inside Voice.app"
 
