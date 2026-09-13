@@ -4,7 +4,9 @@ Homebrew tap for [Inside Voice](https://github.com/BillDX/InsideVoice), push-to-
 dictation for macOS that never leaves your Mac.
 
 ```bash
-brew install --cask BillDX/tap/inside-voice
+brew trust BillDX/tap      # Homebrew 7+ requires trusting third-party taps
+brew tap BillDX/tap
+brew install --cask inside-voice
 ```
 
 Builds are not yet notarized; add `--no-quarantine` to skip the one-time
