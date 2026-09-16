@@ -21,5 +21,4 @@ cask "inside-voice" do
     "~/Library/Application Support/Inside Voice",
     "~/Library/Preferences/com.thinkiac.InsideVoice.plist",
   ]
-
 end
