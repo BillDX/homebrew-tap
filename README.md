@@ -9,9 +9,8 @@ brew tap BillDX/tap
 brew install --cask inside-voice
 ```
 
-Builds are not yet notarized; add `--no-quarantine` to skip the one-time
-Gatekeeper step, or see the
-[install notes](https://github.com/BillDX/InsideVoice#install--the-one-time-gatekeeper-step).
+Builds are signed with a Developer ID and notarized by Apple (from 1.4.0),
+so they open without warnings. Update with `brew upgrade --cask inside-voice`.
 
 | Cask | App |
 |---|---|

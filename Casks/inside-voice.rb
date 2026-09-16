@@ -22,11 +22,4 @@ cask "inside-voice" do
     "~/Library/Preferences/com.thinkiac.InsideVoice.plist",
   ]
 
-  caveats <<~EOS
-    Inside Voice is signed with a local certificate and not yet notarized, so
-    macOS may refuse to open it the first time. Either install with
-    --no-quarantine, or run:
-      xattr -dr com.apple.quarantine "/Applications/Inside Voice.app"
-    or open it once, then System Settings > Privacy & Security > Open Anyway.
-  EOS
 end
