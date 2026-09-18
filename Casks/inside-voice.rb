@@ -1,6 +1,6 @@
 cask "inside-voice" do
-  version "1.4.0"
-  sha256 "94a4338c425a4a9b49c102cc83a7fc13009ad94279151d6770395b1401956e0d"
+  version "1.5.0"
+  sha256 "af634cc6b4d1f302425a23e868b7f46b4a66ee029e7af9e67acc26ee0b3b6e38"
 
   url "https://github.com/BillDX/InsideVoice/releases/download/v#{version}/InsideVoice.dmg"
   name "Inside Voice"
